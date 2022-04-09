@@ -35,4 +35,30 @@
 - scaffoldu ekledikten sonra bomboş tertemiz bir ekran bizimle oluyor.
 - scaffold childinin altına bir appbar tanımlayabilirim.
 - appBar:AppBar(), diyorduk
-- - appbar birsürü değer alıyor bizim kullanabileceğimiz. 
+- - appbar birsürü değer alıyor bizim kullanabileceğimiz. fn+ctrl+space ile görebiliyoruz bunları.
+- mesela title kullandık.
+- title benden ne bekliyor? - widget
+- yani ben direk gelip title'a string değer yazamam.
+- içerisine string değer koyacağım bir widget tanımlamalıyım. oda text
+- appBar : AppBar(title : Text('My Counter appbar ')),
+
+
+- Build dediğimiz yapıya koyduğumuz yapılar direk çiziliyor ve bu değerler kesinlikle değişmiyor.
+- Yani ekrana konulan şey; bir dış etkenle, bir butonun tıklanmasıyla veya internetten veri gelmesiyle veya veri tabanından veri gelmesiyle değişmeyecekse biz onları statless widget yaparız.
+- şimdiye kadar yaptıklarımız dursun 
+
+-scaffoldumzun birde body kısmı vardı. app bar ile başlayıp ekranın sonuna kadar ilerliyordu gelin buraya bir center koyalım.bu center widgetına da child diyip column diyoruz. coloumn dememizin sebebide altlı üstlü elemanlar koymak.
+- bunlarda text olacak. colomn un children yapısına koyuyoruz
+
+- childern neydi?
+- - içerisnde widgetlar tutan bir listeydi ondan dolayı birinci widgetımızı text diye yazalım. Text('Butona basılma miktarı'),
+- dedik bir tane de hemen altına Text('0'),
+- Peki bu yazığımız textler neden emüülatörde görünen uygulamamızda en tepeden başladı? 
+- Eğer center body 'imizin herhangibir height weight faktörü yoksa parrentı kadar yani buradaki scaffoldun bodysi kadar yer kaplar. bu center widget.
+- içerisinde de column 'umuz var. colomn da da herhangibir boyut yok.
+- - bu sebeple gitti uygulamamızın en tepesinden başladı
+- kaç tane text olursa bu aşağıya doğru ilerleyecek.
+
+-_TEKRAR_
+- statless widgetımız build metodu bir kere çalışır bunlar ekrana yazılır ondan sonraki değişmelerden bu etkilenmez
+
