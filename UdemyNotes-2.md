@@ -18,4 +18,19 @@ yazdık
 - Mesele bizim yaptığımız uygulamada butona bastığımda ekrandaki sayının değişmesi state'in değişmesi anlamına geliyor. 
 - Ohalde stateful widget kullanmalıyız.
 - Command+. yapıp en kolay yolla bu widgetı statefull widgeta çevirebiliriz.
+-setState ne işe yarıyor?
+- İlgili widgetın build methodu tekrardan tetikleniyor. 
+- ! Bütün uygulama değil sadece ilgili widgetın build methodu!
 - 
+
+
+
+
+
+
+
+
+
+
+
+
