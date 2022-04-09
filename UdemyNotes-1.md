@@ -16,7 +16,7 @@
 - Buildcontext nedir?
 - bölümün sonunda anlatılacak, bu her yerde karşımıza çıkacak,
 - 
--Flutterin ilk derslerinde dedik ki materialApp diye bir widget verilmiş ve ben bunu kullandığımda uygulamamda yapmam gereken birsürü şey içinde varsayılan olarak yapılmış.
+-Flutter'da materialApp diye bir widget verilmiş ve ben bunu kullandığımda uygulamamda yapmam gereken birsürü şey içinde varsayılan olarak yapılmış.
 - ve material appda mutlaka yazmamız gereken home diye bir parametre var. Buda bir widget alıyor.
 - Home ne işe yarıyordu? - Benim uygulamamın ilk açılış sayfası.
 
