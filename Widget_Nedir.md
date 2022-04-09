@@ -4,7 +4,14 @@
 - Flutterdaki herşey widgetdlardan oluşur.
 - Widget dediğimiz kavram; Bize hazır olarak verilmiş bileşenlerdir.
 - Her arayüz elamanı gibi birçok yapı birer widget olarak geçer
-- Biz bu widgetları kullanarak kolay ve hızlı şekilde uygulama geliştirebiliriz.
+- Biz bu widgetları kullanarak kolay ve hızlı şekild
+
+
+              
+    
+
+            
+e uygulama geliştirebiliriz.
 - Yeri gelecek widget içinde widget kullanacağız. Bu sebeple widget yapısının kavramak önemli.
 - Her bir yapı aslında bir widgettır ve bu widgetların özelliklerini bilmeliyiz. 
 - İç içe widgetlarda farklar vardır. Bazı widgetlar içerisine bir widget kabul ediyorken bazıları birden çok widgetı kabul ederler.
