@@ -1,12 +1,12 @@
 ## Koleksiyonlar notları:
 - Köşeli parantezler görürsek aklımıza setler, süslü parantezleri görürsek aklımıza mapler gelsin.
 - spreads operator: iki listenin elemanlarını sırayla yazıyor.
-- örnek : 
+- örnek :
 -var tekSayilar=[1,3,5,7];
 -var ciftSayilar=[2,4,6,8];
 -var sonListe=[...tekSayilar, ...ciftSayilar]; 
 -print(sonListe);  //çıktısı : [1,3,5,7,2,4,6,8] olur.
-- spreads operatörü  maplerde de kullanabiliriz.
+- spreads operatörü maplerde de kullanabiliriz.
 -var map1={'ad': 'emre'};  
 -var map2={'yas: '22'};
 -var sonMap={...map1 , ...map2};
