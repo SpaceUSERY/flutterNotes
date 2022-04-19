@@ -3,7 +3,6 @@ void main() {
 
   bool kapaliMi = false;
 
-
   var bool1 = 19 > 05;
   print(bool1); //true
 
@@ -16,5 +15,11 @@ void main() {
     print('String boş değil');
   } else {
     print('Boş String');
+
+    if (acikMi == false) {
+      print("açık değil");
+    } else if (kapaliMi == true) {
+      print("kapalı");
+    }
   }
 }
