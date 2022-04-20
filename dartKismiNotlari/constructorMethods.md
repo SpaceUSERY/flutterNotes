@@ -29,6 +29,7 @@ class Araba{
 main(List<String> args){
     Araba honda= Araba();
 }
+```
 - bunu yaptığımda ne oluyordu? -bellekte bir kutucuk açılıyordu. ve bu kutucuğun içerisinde arabanın değerlerini saklayabiliyorduk.
 - sonra ne yapalım honda. diyip bunlara erişelim.
 ```
@@ -61,6 +62,7 @@ class Araba{
         print("Arabanın model yili : $(modelYili), arabanın markası : $(modelYili), Otomatik mi $(otomatikMi));
     }
 }
+```
 - Bakın girdiğim verileri yazdı. 
 - aynı şekilde gidip sonradan bunların değerini değiştirebiliriz. Mesela model yılını 2021 yapalım. bunu yaptıktan sonra çalıştırdığımda, kutudaki 2020 değeri 2021 olarak güncellenecek.
 
