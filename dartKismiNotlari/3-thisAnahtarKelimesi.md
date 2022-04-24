@@ -50,7 +50,7 @@ Araba(int modelYili,String marka,bool otomatikMi){
 }
 ``` 
 - Benzer mantıkla bu sınıfta marka diye bir değişken var paramtre olarak belirlediğim markayi da markaya koy,aynı şekilde otomatikMi diye bir değişken var ,parametre olarak gelen değeri bunun içine koy.
-``
+``'
 Araba(int modelYili,String marka,bool otomatikMi){
     print("Kurucu method çalıştı");
     modelYili=modelYili;
@@ -63,7 +63,7 @@ Araba(int modelYili,String marka,bool otomatikMi){
 - buradaki marka parametre olarak gelen marka mı yoksa sınıfın içindeki değer mi?
 #### bu gibi durumlarda this anahtar kelimesini kullanıyoruz..
 
-``
+``'
 Araba(int modelYili,String marka,bool otomatikMi){
     print("Kurucu method çalıştı");
     this.modelYili=modelYili;
