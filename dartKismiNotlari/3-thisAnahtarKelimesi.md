@@ -63,7 +63,7 @@ Araba(int modelYili,String marka,bool otomatikMi){
 - buradaki marka parametre olarak gelen marka mı yoksa sınıfın içindeki değer mi?
 #### bu gibi durumlarda this anahtar kelimesini kullanıyoruz..
 
-``
+```
 Araba(int modelYili,String marka,bool otomatikMi){
     print("Kurucu method çalıştı");
     this.modelYili=modelYili;
